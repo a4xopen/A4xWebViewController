@@ -41,8 +41,8 @@ s.homepage     = "https://github.com/a4xopen/A4xWebViewController"
 #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
 #
 
-s.license      = "MIT"
-# s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+#s.license      = "MIT"
+s.license = { :type => 'MIT', :file => 'LICENSE' }
 
 
 # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -82,8 +82,8 @@ s.platform     = :ios, "7.0"
 #  Supports git, hg, bzr, svn and HTTP.
 #
 
-s.source       = { :git => "https://github.com/a4xopen/A4xWebViewController.git", :tag => s.version }
-s.license = "MIT"
+#s.source       = { :git => "https://github.com/a4xopen/A4xWebViewController.git", :tag => s.version }
+s.source = { :http => "https://github.com/a4xopen/A4xWebViewController.zip" }
 
 
 # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
