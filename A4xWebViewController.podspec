@@ -83,6 +83,7 @@ s.platform     = :ios, "7.0"
 #
 
 s.source       = { :git => "https://github.com/a4xopen/A4xWebViewController.git", :tag => s.version }
+s.license = "MIT"
 
 
 # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
