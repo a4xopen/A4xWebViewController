@@ -107,7 +107,7 @@ s.source_files  = "A4xWebViewController/*.{h,m}", "A4xWebViewController/Activity
 #  non-essential files like tests, examples and documentation.
 #
 
-s.resource  = "A4xWebViewController/A4xWebViewController/A4xWebViewController.bundle"
+s.resource  = "A4xWebViewController/A4xWebViewController.bundle"
 # s.resources = "Resources/*.png"
 
 # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
