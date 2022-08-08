@@ -41,8 +41,8 @@ s.homepage     = "https://github.com/a4xopen/A4xWebViewController"
 #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
 #
 
-#s.license      = "MIT"
-s.license = { :type => 'MIT', :file => 'LICENSE' }
+s.license      = "MIT"
+#s.license = { :type => 'MIT', :file => 'LICENSE' }
 
 
 # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -83,7 +83,7 @@ s.platform     = :ios, "7.0"
 #
 
 #s.source       = { :git => "https://github.com/a4xopen/A4xWebViewController.git", :tag => s.version }
-s.source = { :http => "https://github.com/a4xopen/A4xWebViewController.zip" }
+s.source = { :http => "https://github.com/a4xopen/A4xWebViewController/archive/refs/heads/1.6.0.zip" }
 
 
 # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -94,7 +94,7 @@ s.source = { :http => "https://github.com/a4xopen/A4xWebViewController.zip" }
 #  Not including the public_header_files will make all headers public.
 #
 
-s.source_files  = "A4xWebViewController/*.{h,m}", "A4xWebViewController/Activity/*.{h,m}", "A4xWebViewController/Security/*.{h,m}"
+s.source_files  = "A4xWebViewController/A4xWebViewController/*.{h,m}", "A4xWebViewController/A4xWebViewController/Activity/*.{h,m}", "A4xWebViewController/A4xWebViewController/Security/*.{h,m}"
 #s.exclude_files = "Classes/Exclude"
 
 # s.public_header_files = "Classes/**/*.h"
